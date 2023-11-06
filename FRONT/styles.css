@@ -1,0 +1,98 @@
+/* Estilize o corpo da página */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilize o cabeçalho */
+header {
+    position: fixed;
+    z-index: 100;
+    display: flex;
+    justify-content:center;
+    background-color: #0a0505;
+    padding: 20px;
+    
+}
+
+
+.logo{
+    position: absolute;
+    width: 300px;
+    top: 10;
+    left: 3px;
+}
+
+/* Estilize o título no cabeçalho */
+.inicio{
+    margin-left: 580px;
+}
+
+.treino{
+    color: white;
+    margin-left: 100px;
+}
+
+header h1 {
+    font-size: 24px;
+    color: #DFA100
+
+}
+
+/* Estilize o conteúdo principal com a imagem de fundo */
+main {
+    background-size: cover; /* Para cobrir todo o espaço disponível */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    background-attachment: fixed; /* Mantém a imagem fixa no lugar */
+    background-image: url('BACKGROUND.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Define a altura do conteúdo principal */
+}
+
+/* Estilize o container centralizado */
+.centered {
+    display: flex;
+    justify-content: center; /* Centralize horizontalmente */
+    align-items: center; /* Centralize verticalmente */
+    height: 100vh; /* Defina a altura do container para preencher a tela inteira verticalmente */
+}
+
+/* Estilize o botão com bordas brancas e fundo transparente */
+.white-border-button {
+    background-color: transparent;
+    border: 2px solid white; /* Define bordas brancas de 2 pixels */
+    color: white; /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno (acima/abaixo e esquerda/direita) */
+    cursor: pointer; /* Altera o cursor ao passar o mouse sobre o botão */
+}
+
+.white-border-button:hover {
+    background-color: transparent; /* Mantém o fundo transparente no hover */
+    color: white; /* Altera a cor do texto no hover */
+}
+
+footer {
+    background-color:#000;
+    color: #fff; /* Cor do texto no rodapé */
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Estilo para os ícones no rodapé */
+  footer i {
+    font-size: 24px; /* Tamanho do ícone */
+    margin: 0 10px; /* Espaçamento entre os ícones */
+  }
+  
+  /* Estilo para os links no rodapé (remover o sublinhado) */
+  footer a {
+    text-decoration: none;
+    color: #ffffff; /* Cor do link */
+  }
+  
+  /* Estilo para os links no rodapé quando hover (ao passar o mouse) */
+  footer a:hover {
+    text-decoration: underline;
+  }
